@@ -1,0 +1,19 @@
+Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1:
+1.This version is created in the year 1997.
+2.It works on the textual format.
+3.It doesnt allow Multiplexing like if HTTP1.1 loads resources one after the other,so if one resource cannot be loaded,it blocks all the other resources behind it.
+4.HTTP1.1 uses requests resource Inlining for use getting multiple pages.
+5.HTTP1.1 compresses data by itself.
+6.HTTP1.1 affects a webpage's load time.If resources, like large files may block the rest of the page from loading if they have to load first.
+
+
+
+HTTP2:
+1.This version was created in the year 2015.HTTP2 is much faster and more efficient than HTTP1.1. 
+2.It works on the binary format protocol.
+3.IT allows Multiplexing like if HTTP.2 is able to use a single TCP connection to send multiple streams of data at once so no resource blocks any other resource and it split the data into binary code message. 
+4.It uses PUSH frame by server that collects all multiple pages.
+5.HTTP2 uses HPACK for data compression.
+6.HTTP2 offers a feature called weighted prioritization. This allows developers to decide which page resources will load first, every time.

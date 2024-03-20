@@ -1,0 +1,30 @@
+what is objects and its internal representation in Javascript:
+
+OBJECT:
+
+1.An Object is a collection of unordered properties.
+2.Object are variable too,but object contains many values.
+3.the values are written as name:value
+4.Javascript objects are containers for named values.
+
+PROPERTIES:
+
+1.The name:values pairs in javascript object are called as properties.
+2.Properties are the most important part of any JavaScript object.
+3.Properties can usually be changed, added, and deleted, but some are read only.
+4.using the syntax we can add , delete and access the property.
+
+syntax for access , add and delete 
+Access : objectname.property
+delete : delete objectname.property
+add    : objectname.property
+
+METHODS:
+1.Objects can also have methods. Methods are actions that can be performed on objects. 
+2.Methods are stored in properties as function definitions.
+3.A method is a function stored as a property.
+4.In JavaScript,the "this" keyword refers to an object.
+5.Which object depends on how this is being invoked (used or called).
+
+SYNATX USED TO ACCESS METHOD:
+objectName.methodName()
